@@ -86,6 +86,7 @@ const config = defineConfig( {
 						// eslint-disable-next-line camelcase
 						JSC_webAssemblyLLIntTiersUpToBBQ: 0,
 					},
+					args: [ "--features='+WebGPU'" ],
 				},
 			},
 		},
